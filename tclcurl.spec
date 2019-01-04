@@ -18,12 +18,12 @@
 
 
 Name:           tclcurl
-Version:        7.22.0_hg20160822
+Version:        7.22.0_git20160822
 Release:        0
 Summary:        Tcl Binding to libcurl
 License:        TCL
 Group:          Development/Languages/Tcl
-Url:            https://bitbucket.org/smh377/tclcurl
+Url:            https://github.com/flightaware/tclcurl-fa
 Source:         TclCurl-%{version}.tar.gz
 Patch0:         tclcurl-types.patch
 BuildRequires:  bc
