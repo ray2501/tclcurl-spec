@@ -18,7 +18,7 @@
 
 
 Name:           tclcurl
-Version:        7.22.0_git20160822
+Version:        7.22.0_git20190205
 Release:        0
 Summary:        Tcl Binding to libcurl
 License:        TCL
@@ -56,7 +56,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc ChangeLog.txt Changes.txt ReadMe.txt html/
+%doc ChangeLog.txt Changes.txt README.md
 %{tcl_archdir}/TclCurl%{version}
 %doc %{_mandir}/mann/*.n*
 
