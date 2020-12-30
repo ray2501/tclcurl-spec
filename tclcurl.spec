@@ -18,7 +18,7 @@
 
 
 Name:           tclcurl
-Version:        7.22.0_git20190205
+Version:        7.22.0_git20201230
 Release:        0
 Summary:        Tcl Binding to libcurl
 License:        TCL
