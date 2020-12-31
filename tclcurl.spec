@@ -27,7 +27,7 @@ Url:            https://github.com/flightaware/tclcurl-fa
 Source:         TclCurl-%{version}.tar.gz
 Patch0:         tclcurl-types.patch
 BuildRequires:  bc
-BuildRequires:  libcurl-devel >= 7.21.7
+BuildRequires:  libcurl-devel >= 7.54.0
 BuildRequires:  tcl-devel
 Requires:       tcl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
