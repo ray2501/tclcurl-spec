@@ -1,7 +1,7 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "TclCurl-7.22.0_git20210305"
+set base "TclCurl-7.22.0_git20210315"
 
 if {[file exists build]} {
     file delete -force build
@@ -11,7 +11,7 @@ set var [list git clone https://github.com/flightaware/tclcurl-fa.git $base]
 exec >@stdout 2>@stderr {*}$var
 
 cd $base
-set var2 [list git checkout 4e79a998af6f50696d2d612f111cb710606143cb]
+set var2 [list git checkout c471fbf8418a41d807c57db6b638c47c3845b897]
 exec >@stdout 2>@stderr {*}$var2
 
 # Remove git log
